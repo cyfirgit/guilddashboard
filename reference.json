@@ -1,0 +1,818 @@
+{
+	"armor": ["Plate", "Mail", "Leather", "Cloth"],
+	"token": ["Conqueror", "Protector", "Vanquisher"],
+	"role": ["Tank", "Healer", "Melee DPS", "Ranged DPS"],
+	"application": ["Passive", "Cast", "Pet Passive"],
+	"effect": ["Stats", "Stamina", "Attack Power", "Spell Power", "Versatility", "Haste", "Critical Strike", "Multistrike", "Mastery", "Burst Haste", "Combat Resurrection"],
+	"class_data": {
+		"Death Knight": {
+			"armor": "Plate",
+			"token": "Vanquisher",
+			"buffs": ["Horn of Winter"],
+			"specs": {
+				"Blood": {
+					"role": "Tank",
+					"buffs": ["Power of the Grave"]
+				},
+				"Frost": {
+					"role": "Melee DPS",
+					"buffs": ["Unholy Aura"]
+				},
+				"Unholy": {
+					"role": "Melee DPS",
+					"buffs": ["Unholy Aura"]
+				}
+			}
+		},
+		"Druid": {
+			"armor": "Leather",
+			"token": "Vanquisher",
+			"buffs": ["Mark of the Wild"],
+			"specs": {
+				"Balance": {
+					"role": "Ranged DPS",
+					"buffs": ["Moonkin Aura"]
+				},
+				"Feral": {
+					"role": "Melee DPS",
+					"buffs": ["Leader of the Pack"]
+				},
+				"Guardian": {
+					"role": "Tank",
+					"buffs": []
+				},
+				"Restoration": {
+					"role": "Healer",
+					"buffs": []
+				}
+			}
+		},
+		"Hunter": {
+			"armor": "Mail",
+			"token": "Protector",
+			"buffs": ["Trueshot Aura"],
+			"specs": {
+				"Beast Mastery": {
+					"role": "Ranged DPS",
+					"buffs": []
+				},
+				"Marksmanship": {
+					"role": "Ranged DPS",
+					"buffs": []
+				},
+				"Survival": {
+					"role": "Ranged DPS",
+					"buffs": []
+				}
+			}
+		},
+		"Mage": {
+			"armor": "Cloth",
+			"token": "Vanquisher",
+			"buffs": ["Time Warp", "Arcane Brilliance"],
+			"specs": {
+				"Arcane": {
+					"role": "Ranged DPS",
+					"buffs": []
+				},
+				"Fire": {
+					"role": "Ranged DPS",
+					"buffs": []
+				},
+				"Frost": {
+					"role": "Ranged DPS",
+					"buffs": []
+				}
+			}
+		},
+		"Monk": {
+			"armor": "Leather",
+			"token": "Protector",
+			"buffs": [],
+			"specs": {
+				"Brewmaster": {
+					"role": "Tank",
+					"buffs": ["Legacy of the White Tiger"]
+				},
+				"Mistweaver": {
+					"role": "Healer",
+					"buffs": ["Legacy of the Emperor"]
+				},
+				"Windwalker": {
+					"role": "Melee DPS",
+					"buffs": ["Legacy of the White Tiger", "Windflurry"]
+				}
+			}
+		},
+		"Paladin": {
+			"armor": "Plate",
+			"token": "Conqueror",
+			"buffs": ["Blessing of Kings", "Blessing of Might"],
+			"specs": {
+				"Holy": {
+					"role": "Healer",
+					"buffs": []
+				},
+				"Protection": {
+					"role": "Tank",
+					"buffs": []
+				},
+				"Retribution": {
+					"role": "Melee DPS",
+					"buffs": ["Sanctity Aura"]
+				}
+			}
+		},
+		"Priest": {
+			"armor": "Cloth",
+			"token": "Conqueror",
+			"buffs": ["Power Word: Fortitude"],
+			"specs": {
+				"Discipline": {
+					"role": "Healer",
+					"buffs": []
+				},
+				"Holy": {
+					"role": "Healer",
+					"buffs": []
+				},
+				"Shadow": {
+					"role": "Ranged DPS",
+					"buffs": ["Mind Quickening"]
+				}
+			}
+		},
+		"Rogue": {
+			"armor": "Leather",
+			"token": "Vanquisher",
+			"buffs": ["Swiftblade's Cunning"],
+			"specs": {
+				"Assassination": {
+					"role": "Melee DPS",
+					"buffs": []
+				},
+				"Combat": {
+					"role": "Melee DPS",
+					"buffs": []
+				},
+				"Subtlety": {
+					"role": "Melee DPS",
+					"buffs": []
+				}
+			}
+		},
+		"Shaman": {
+			"armor": "Mail",
+			"token": "Protector",
+			"buffs": ["Bloodlust", "Heroism", "Grace of Air"],
+			"specs": {
+				"Elemental": {
+					"role": "Ranged DPS",
+					"buffs": []
+				},
+				"Enhancement": {
+					"role": "Melee DPS",
+					"buffs": []
+				},
+				"Restoration": {
+					"role": "Healer",
+					"buffs": []
+				}
+			}
+		},
+		"Warlock": {
+			"armor": "Cloth",
+			"token": "Conqueror",
+			"buffs": ["Dark Intent", "Blood Pact"],
+			"specs": {
+				"Affliction": {
+					"role": "Ranged DPS",
+					"buffs": []
+				},
+				"Demonology": {
+					"role": "Ranged DPS",
+					"buffs": []
+				},
+				"Destruction": {
+					"role": "Ranged DPS",
+					"buffs": []
+				}
+			}
+		},
+		"Warrior": {
+			"armor": "Plate",
+			"token": "Protector",
+			"buffs": ["Battle Shout", "Commanding Shout"],
+			"specs": {
+				"Arms": {
+					"role": "Melee DPS",
+					"buffs": ["Inspiring Presence"]
+				},
+				"Fury": {
+					"role": "Melee DPS",
+					"buffs": ["Inspiring Presence"]
+				},
+				"Protection": {
+					"role": "Tank",
+					"buffs": []
+				},
+				"Gladiator": {
+					"role": "Melee DPS",
+					"buffs": []
+				}
+			}
+		}	
+	},
+	"pet_families": {
+		"Bat": {
+			"Exotic": false,
+			"Buffs": ["Sonic Focus"]
+		},
+		"Bird of Prey": {
+			"Exotic": false,
+			"Buffs": ["Tenacity"]
+		},
+		"Chimaera": {
+			"Exotic": true,
+			"Buffs": ["Duality"]
+		},
+		"Crane": {
+			"Exotic": false,
+			"Buffs": ["Gift of Chi-Ji"]
+		},
+		"Dragonhawk": {
+			"Exotic": false,
+			"Buffs": ["Spry Attacks"]
+		},
+		"Nether Ray": {
+			"Exotic": false,
+			"Buffs": ["Netherwinds"]
+		},
+		"Ravager": {
+			"Exotic": false,
+			"Buffs": ["Chitinous Armor"]
+		},
+		"Rylak": {
+			"Exotic": false,
+			"Buffs": ["Saveage Vigor"]
+		},
+		"Serpent": {
+			"Exotic": false,
+			"Buffs": ["Serpent's Cunning"]
+		},
+		"Silithid": {
+			"Exotic": true,
+			"Buffs": ["Qiraji Fortitude"]
+		},
+		"Sporebat": {
+			"Exotic": false,
+			"Buffs": ["Energizing Spores"]
+		},
+		"Water Strider": {
+			"Exotic": true,
+			"Buffs": ["Still Water"]
+		},
+		"Wind Serpent": {
+			"Exotic": false,
+			"Buffs": ["Breath of the Winds"]
+		},
+		"Cat": {
+			"Exotic": false,
+			"Buffs": ["Roar of Courage"]
+		},
+		"Core Hound": {
+			"Exotic": true,
+			"Buffs": ["Ancient Hysteria", "Double Bite"]
+		},
+		"Devilsaur": {
+			"Exotic": true,
+			"Buffs": ["Terrifying Roar"]
+		},
+		"Dog": {
+			"Exotic": false,
+			"Buffs": ["Bark of the Wild"]
+		},
+		"Goat": {
+			"Exotic": false,
+			"Buffs": ["Sturdiness"]
+		},
+		"Hydra": {
+			"Exotic": false,
+			"Buffs": ["Keen Senses"]
+		},
+		"Hyena": {
+			"Exotic": false,
+			"Buffs": ["Cackling Howl"]
+		},
+		"Moth": {
+			"Exotic": false,
+			"Buffs": ["Dust of Life"]
+		},
+		"Quilen": {
+			"Exotic": true,
+			"Buffs": ["Fearless Roar", "Eternal Guardian"]
+		},
+		"Raptor": {
+			"Exotic": false,
+			"Buffs": ["Strength of the Pack"]
+		},
+		"Spirit Beast": {
+			"Exotic": true,
+			"Buffs": ["Spirit Beast Blessing"]
+		},
+		"Stag": {
+			"Exotic": false,
+			"Buffs": ["Grace"]
+		},
+		"Tallstrider": {
+			"Exotic": false,
+			"Buffs": ["Plainswalking"]
+		},
+		"Wasp": {
+			"Exotic": false,
+			"Buffs": ["Speed of the Swarm"]
+		},
+		"Wolf": {
+			"Exotic": false,
+			"Buffs": ["Furious Howl"]
+		},
+		"Bear": {
+			"Exotic": false,
+			"Buffs": ["Invigorating Roar"]
+		},
+		"Boar": {
+			"Exotic": false,
+			"Buffs": ["Indomitable"]
+		},
+		"Clefthoof": {
+			"Exotic": false,
+			"Buffs": ["Wild Strength"]
+		},
+		"Gorilla": {
+			"Exotic": false,
+			"Buffs": ["Blessing of Kongs"]
+		},
+		"Porcupine": {
+			"Exotic": false,
+			"Buffs": ["Defensive Quills"]
+		},
+		"Shale Spider": {
+			"Exotic": true,
+			"Buffs": ["Embrace of the Shale Spider"]
+		},
+		"Worm": {
+			"Exotic": true,
+			"Buffs": ["Strength of the Earth"]
+		},
+		"Lone Wolf": {
+			"Exotic": false,
+			"Buffs": ["Lone Wolf: Grace of the Cat", "Lone Wolf: Ferocity of the Raptor", "Lone Wolf: Quickness of the Dragonhawk", "Lone Wolf: Wisdom of the Serpent", "Lone Wolf: Haste of the Hyena", "Lone Wolf: Fortitude of the Bear", "Lone Wolf: Power of the Primates", "Lone Wolf: Versatility of the Ravager", ]
+		},
+	}
+	"buff_data": { 
+		"Soulstone": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 20707, 
+			"effects": ["Battle Res"]
+		}, 
+		"Strength of the Earth": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 160077, 
+			"effects": ["Stats", "Versatility"]
+		}, 
+		"Lone Wolf: Quickness of the Dragonhawk": { 
+			"application": 0, 
+			"exlusive": true,
+			"id": 172968, 
+			"effects": ["Multistrike"]
+		}, 
+		"Lone Wolf: Wisdom of the Serpent": { 
+			"application": 0, 
+			"exlusive": true,
+			"id": 160205, 
+			"effects": ["Spell Power"]
+		}, 
+		"Swiftblade's Cunning": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 113742, 
+			"effects": ["Haste", "Multistrike"]
+		}, 
+		"Leader of the Pack": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 17007, 
+			"effects": ["Critical Strike"]
+		}, 
+		"Power of the Grave": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 155522, 
+			"effects": ["Mastery"]
+		}, 
+		"Sanctity Aura": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 167187, 
+			"effects": ["Versatility"]
+		}, 
+		"Energizing Spores": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 135678, 
+			"effects": ["Haste"]
+		}, 
+		"Lone Wolf: Ferocity of the Raptor": { 
+			"application": 0, 
+			"exlusive": true,
+			"id": 160200, 
+			"effects": ["Critical Strike"]
+		}, 
+		"Dust of Life": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 159956, 
+			"effects": ["Battle Res"]
+		}, 
+		"Windflurry": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 166916, 
+			"effects": ["Multistrike"]
+		}, 
+		"Sturdiness": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 160014, 
+			"effects": ["Stamina"]
+		}, 
+		"Tenacity": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 159735, 
+			"effects": ["Versatility"]
+		}, 
+		"Inspiring Presence": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 167188, 
+			"effects": ["Versatility"]
+		}, 
+		"Legacy of the White Tiger": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 116781, 
+			"effects": ["Stats", "Critical Strike"]
+		}, 
+		"Sonic Focus": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 50519, 
+			"effects": ["Multistrike"]
+		}, 
+		"Invigorating Roar": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 50256, 
+			"effects": ["Stamina"]
+		}, 
+		"Speed of the Swarm": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 160074, 
+			"effects": ["Haste"]
+		}, 
+		"Spry Attacks": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 34889, 
+			"effects": ["Multistrike"]
+		}, 
+		"Furious Howl": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 24604, 
+			"effects": ["Critical Strike"]
+		}, 
+		"Double Bite": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 58604, 
+			"effects": ["Multistrike"]
+		}, 
+		"Ancient Hysteria": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 90355, 
+			"effects": ["Burst Haste"]
+		}, 
+		"Cackling Howl": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 128432, 
+			"effects": ["Haste"]
+		}, 
+		"Grace of Air": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 116956, 
+			"effects": ["Haste", "Mastery"]
+		}, 
+		"Lone Wolf: Versatility of the Ravager": { 
+			"application": 0, 
+			"exlusive": true,
+			"id": 172967, 
+			"effects": ["Versatility"]
+		}, 
+		"Defensive Quills": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 160045, 
+			"effects": ["Versatility"]
+		}, 
+		"Eternal Guardian": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 126393, 
+			"effects": ["Battle Res"]
+		}, 
+		"Indomitable": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 35290, 
+			"effects": ["Versatility"]
+		}, 
+		"Terrifying Roar": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 90309, 
+			"effects": ["Critical Strike"]
+		}, 
+		"Netherwinds": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 160452, 
+			"effects": ["Burst Haste"]
+		}, 
+		"Wild Strength": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 57386, 
+			"effects": ["Versatility", "Multistrike"]
+		}, 
+		"Grace": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 173035, 
+			"effects": ["Versatility"]
+		}, 
+		"Blood Pact": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 166928, 
+			"effects": ["Stamina"]
+		}, 
+		"Spirit Beast Blessing": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 128997, 
+			"effects": ["Mastery"]
+		}, 
+		"Rebirth": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 20484, 
+			"effects": ["Battle Res"]
+		}, 
+		"Qiraji Fortitude": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 90364, 
+			"effects": ["Stamina", "Spell Power"]
+		}, 
+		"Lone Wolf: Grace of the Cat": { 
+			"application": 0, 
+			"exlusive": true,
+			"id": 160198, 
+			"effects": ["Mastery"]
+		}, 
+		"Serpent's Cunning": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 128433, 
+			"effects": ["Spell Power"]
+		}, 
+		"Blessing of Kings": { 
+			"application": 1, 
+			"exlusive": true,
+			"id": 20217, 
+			"effects": ["Stats"]
+		}, 
+		"Still Water": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 126309, 
+			"effects": ["Spell Power", "Critical Strike"]
+		}, 
+		"Blessing of Kongs": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 160017, 
+			"effects": ["Stats"]
+		}, 
+		"Savage Vigor": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 160003, 
+			"effects": ["Stamina", "Haste"]
+		}, 
+		"Arcane Brilliance": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 1459, 
+			"effects": ["Spell Power", "Critical Strike"]
+		}, 
+		"Blessing of Might": { 
+			"application": 1, 
+			"exlusive": true,
+			"id": 19740, 
+			"effects": ["Mastery"]
+		}, 
+		"Bloodlust": { 
+			"application": 1, 
+			"exlusive": true,
+			"id": 2825, 
+			"effects": ["Burst Haste"]
+		}, 
+		"Heroism": { 
+			"application": 1,
+			"exlusive": true, 
+			"id": 32182, 
+			"effects": ["Burst Haste"]
+		}, 
+		"Dark Intent": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 109773, 
+			"effects": ["Spell Power", "Multistrike"]
+		}, 
+		"Chitinous Armor": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 50518, 
+			"effects": ["Versatility"]
+		}, 
+		"Horn of Winter": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 57330, 
+			"effects": ["Attack Power"]
+		}, 
+		"Lone Wolf: Power of the Primates": { 
+			"application": 0, 
+			"exlusive": true,
+			"id": 160206, 
+			"effects": ["Stats"]
+		}, 
+		"Bark of the Wild": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 159988, 
+			"effects": ["Stats"]
+		}, 
+		"Keen Senses": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 160039, 
+			"effects": ["Mastery"]
+		}, 
+		"Breath of the Winds": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 24844, 
+			"effects": ["Multistrike"]
+		}, 
+		"Gift of Chi-Ji": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 159931, 
+			"effects": ["Battle Res"]
+		}, 
+		"Strength of the Pack": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 160052, 
+			"effects": ["Critical Strike"]
+		}, 
+		"Duality": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 159736, 
+			"effects": ["Multistrike"]
+		}, 
+		"Legacy of the Emperor": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 115921, 
+			"effects": ["Stats"]
+		}, 
+		"Roar of Courage": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 93435, 
+			"effects": ["Mastery"]
+		}, 
+		"Lone Wolf: Haste of the Hyena": { 
+			"application": 0, 
+			"exlusive": true,
+			"id": 160203, 
+			"effects": ["Haste"]
+		}, 
+		"Plainswalking": { 
+			"application": 2,
+			"exlusive": false, 
+			"id": 160073, 
+			"effects": ["Mastery"]
+		}, 
+		"Mind Quickening": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 49868, 
+			"effects": ["Haste", "Multistrike"]
+		}, 
+		"Power Word: Fortitude": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 21562, 
+			"effects": ["Stamina"]
+		}, 
+		"Moonkin Aura": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 52503, 
+			"effects": ["Mastery"]
+		}, 
+		"Mark of the Wild": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 1126, 
+			"effects": ["Stats", "Versatility"]
+		}, 
+		"Fearless Roar": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 126373, 
+			"effects": ["Critical Strike"]
+		}, 
+		"Raise Ally": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 61999, 
+			"effects": ["Battle Res"]
+		}, 
+		"Battle Shout": { 
+			"application": 1, 
+			"exlusive": true,
+			"id": 6673, 
+			"effects": ["Attack Power"]
+		}, 
+		"Trueshot Aura": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 19506, 
+			"effects": ["Attack Power"]
+		}, 
+		"Time Warp": { 
+			"application": 1, 
+			"exlusive": false,
+			"id": 80353, 
+			"effects": ["Burst Haste"]
+		}, 
+		"Commanding Shout": { 
+			"application": 1, 
+			"exlusive": true,
+			"id": 469, 
+			"effects": ["Stamina"]
+		}, 
+		"Embrace of the Shale Spider": { 
+			"application": 2, 
+			"exlusive": false,
+			"id": 90363, 
+			"effects": ["Stats", "Critical Strike"]
+		}, 
+		"Unholy Aura": { 
+			"application": 0, 
+			"exlusive": false,
+			"id": 55610, 
+			"effects": ["Versatility", "Haste"]
+		}, 
+		"Lone Wolf: Fortitude of the Bear": { 
+			"application": 0, 
+			"exlusive": true,
+			"id": 160199, 
+			"effects": ["Stamina"]
+		}
+	}
+}
