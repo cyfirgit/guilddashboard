@@ -3,7 +3,19 @@
 	"token": ["Conqueror", "Protector", "Vanquisher"],
 	"role": ["Tank", "Healer", "Melee DPS", "Ranged DPS"],
 	"application": ["Passive", "Cast", "Pet Passive"],
-	"effect": ["Stats", "Stamina", "Attack Power", "Spell Power", "Versatility", "Haste", "Critical Strike", "Multistrike", "Mastery", "Burst Haste", "Combat Resurrection"],
+	"effect": [
+		"Stats", 
+		"Stamina", 
+		"Attack Power", 
+		"Spell Power", 
+		"Versatility", 
+		"Haste", 
+		"Critical Strike", 
+		"Multistrike", 
+		"Mastery", 
+		"Burst Haste", 
+		"Combat Resurrection"
+	],
 	"class_data": {
 		"Death Knight": {
 			"armor": "Plate",
@@ -225,156 +237,165 @@
 	},
 	"pet_families": {
 		"Bat": {
-			"Exotic": false,
-			"Buffs": ["Sonic Focus"]
+			"exotic": false,
+			"buffs": ["Sonic Focus"]
 		},
 		"Bird of Prey": {
-			"Exotic": false,
-			"Buffs": ["Tenacity"]
+			"exotic": false,
+			"buffs": ["Tenacity"]
 		},
 		"Chimaera": {
-			"Exotic": true,
-			"Buffs": ["Duality"]
+			"exotic": true,
+			"buffs": ["Duality"]
 		},
 		"Crane": {
-			"Exotic": false,
-			"Buffs": ["Gift of Chi-Ji"]
+			"exotic": false,
+			"buffs": ["Gift of Chi-Ji"]
 		},
 		"Dragonhawk": {
-			"Exotic": false,
-			"Buffs": ["Spry Attacks"]
+			"exotic": false,
+			"buffs": ["Spry Attacks"]
 		},
 		"Nether Ray": {
-			"Exotic": false,
-			"Buffs": ["Netherwinds"]
+			"exotic": false,
+			"buffs": ["Netherwinds"]
 		},
 		"Ravager": {
-			"Exotic": false,
-			"Buffs": ["Chitinous Armor"]
+			"exotic": false,
+			"buffs": ["Chitinous Armor"]
 		},
 		"Rylak": {
-			"Exotic": false,
-			"Buffs": ["Saveage Vigor"]
+			"exotic": false,
+			"buffs": ["Saveage Vigor"]
 		},
 		"Serpent": {
-			"Exotic": false,
-			"Buffs": ["Serpent's Cunning"]
+			"exotic": false,
+			"buffs": ["Serpent's Cunning"]
 		},
 		"Silithid": {
-			"Exotic": true,
-			"Buffs": ["Qiraji Fortitude"]
+			"exotic": true,
+			"buffs": ["Qiraji Fortitude"]
 		},
 		"Sporebat": {
-			"Exotic": false,
-			"Buffs": ["Energizing Spores"]
+			"exotic": false,
+			"buffs": ["Energizing Spores"]
 		},
 		"Water Strider": {
-			"Exotic": true,
-			"Buffs": ["Still Water"]
+			"exotic": true,
+			"buffs": ["Still Water"]
 		},
 		"Wind Serpent": {
-			"Exotic": false,
-			"Buffs": ["Breath of the Winds"]
+			"exotic": false,
+			"buffs": ["Breath of the Winds"]
 		},
 		"Cat": {
-			"Exotic": false,
-			"Buffs": ["Roar of Courage"]
+			"exotic": false,
+			"buffs": ["Roar of Courage"]
 		},
 		"Core Hound": {
-			"Exotic": true,
-			"Buffs": ["Ancient Hysteria", "Double Bite"]
+			"exotic": true,
+			"buffs": ["Ancient Hysteria", "Double Bite"]
 		},
 		"Devilsaur": {
-			"Exotic": true,
-			"Buffs": ["Terrifying Roar"]
+			"exotic": true,
+			"buffs": ["Terrifying Roar"]
 		},
 		"Dog": {
-			"Exotic": false,
-			"Buffs": ["Bark of the Wild"]
+			"exotic": false,
+			"buffs": ["Bark of the Wild"]
 		},
 		"Goat": {
-			"Exotic": false,
-			"Buffs": ["Sturdiness"]
+			"exotic": false,
+			"buffs": ["Sturdiness"]
 		},
 		"Hydra": {
-			"Exotic": false,
-			"Buffs": ["Keen Senses"]
+			"exotic": false,
+			"buffs": ["Keen Senses"]
 		},
 		"Hyena": {
-			"Exotic": false,
-			"Buffs": ["Cackling Howl"]
+			"exotic": false,
+			"buffs": ["Cackling Howl"]
 		},
 		"Moth": {
-			"Exotic": false,
-			"Buffs": ["Dust of Life"]
+			"exotic": false,
+			"buffs": ["Dust of Life"]
 		},
 		"Quilen": {
-			"Exotic": true,
-			"Buffs": ["Fearless Roar", "Eternal Guardian"]
+			"exotic": true,
+			"buffs": ["Fearless Roar", "Eternal Guardian"]
 		},
 		"Raptor": {
-			"Exotic": false,
-			"Buffs": ["Strength of the Pack"]
+			"exotic": false,
+			"buffs": ["Strength of the Pack"]
 		},
 		"Spirit Beast": {
-			"Exotic": true,
-			"Buffs": ["Spirit Beast Blessing"]
+			"exotic": true,
+			"buffs": ["Spirit Beast Blessing"]
 		},
 		"Stag": {
-			"Exotic": false,
-			"Buffs": ["Grace"]
+			"exotic": false,
+			"buffs": ["Grace"]
 		},
 		"Tallstrider": {
-			"Exotic": false,
-			"Buffs": ["Plainswalking"]
+			"exotic": false,
+			"buffs": ["Plainswalking"]
 		},
 		"Wasp": {
-			"Exotic": false,
-			"Buffs": ["Speed of the Swarm"]
+			"exotic": false,
+			"buffs": ["Speed of the Swarm"]
 		},
 		"Wolf": {
-			"Exotic": false,
-			"Buffs": ["Furious Howl"]
+			"exotic": false,
+			"buffs": ["Furious Howl"]
 		},
 		"Bear": {
-			"Exotic": false,
-			"Buffs": ["Invigorating Roar"]
+			"exotic": false,
+			"buffs": ["Invigorating Roar"]
 		},
 		"Boar": {
-			"Exotic": false,
-			"Buffs": ["Indomitable"]
+			"exotic": false,
+			"buffs": ["Indomitable"]
 		},
 		"Clefthoof": {
-			"Exotic": false,
-			"Buffs": ["Wild Strength"]
+			"exotic": false,
+			"buffs": ["Wild Strength"]
 		},
 		"Gorilla": {
-			"Exotic": false,
-			"Buffs": ["Blessing of Kongs"]
+			"exotic": false,
+			"buffs": ["Blessing of Kongs"]
 		},
 		"Porcupine": {
-			"Exotic": false,
-			"Buffs": ["Defensive Quills"]
+			"exotic": false,
+			"buffs": ["Defensive Quills"]
 		},
 		"Shale Spider": {
-			"Exotic": true,
-			"Buffs": ["Embrace of the Shale Spider"]
+			"exotic": true,
+			"buffs": ["Embrace of the Shale Spider"]
 		},
 		"Worm": {
-			"Exotic": true,
-			"Buffs": ["Strength of the Earth"]
+			"exotic": true,
+			"buffs": ["Strength of the Earth"]
 		},
 		"Lone Wolf": {
-			"Exotic": false,
-			"Buffs": ["Lone Wolf: Grace of the Cat", "Lone Wolf: Ferocity of the Raptor", "Lone Wolf: Quickness of the Dragonhawk", "Lone Wolf: Wisdom of the Serpent", "Lone Wolf: Haste of the Hyena", "Lone Wolf: Fortitude of the Bear", "Lone Wolf: Power of the Primates", "Lone Wolf: Versatility of the Ravager", ]
-		},
-	}
+			"exotic": false,
+			"buffs": [
+				"Lone Wolf: Grace of the Cat", 
+				"Lone Wolf: Ferocity of the Raptor", 
+				"Lone Wolf: Quickness of the Dragonhawk", 
+				"Lone Wolf: Wisdom of the Serpent", 
+				"Lone Wolf: Haste of the Hyena", 
+				"Lone Wolf: Fortitude of the Bear", 
+				"Lone Wolf: Power of the Primates", 
+				"Lone Wolf: Versatility of the Ravager"
+			]
+		}
+	},
 	"buff_data": { 
 		"Soulstone": { 
 			"application": 1, 
 			"exlusive": false,
 			"id": 20707, 
-			"effects": ["Battle Res"]
+			"effects": ["Combat Resurrection"]
 		}, 
 		"Strength of the Earth": { 
 			"application": 2, 
@@ -434,7 +455,7 @@
 			"application": 1, 
 			"exlusive": false,
 			"id": 159956, 
-			"effects": ["Battle Res"]
+			"effects": ["Combat Resurrection"]
 		}, 
 		"Windflurry": { 
 			"application": 0, 
@@ -536,7 +557,7 @@
 			"application": 1, 
 			"exlusive": false,
 			"id": 126393, 
-			"effects": ["Battle Res"]
+			"effects": ["Combat Resurrection"]
 		}, 
 		"Indomitable": { 
 			"application": 2, 
@@ -584,7 +605,7 @@
 			"application": 1, 
 			"exlusive": false,
 			"id": 20484, 
-			"effects": ["Battle Res"]
+			"effects": ["Combat Resurrection"]
 		}, 
 		"Qiraji Fortitude": { 
 			"application": 2, 
@@ -698,7 +719,7 @@
 			"application": 1, 
 			"exlusive": false,
 			"id": 159931, 
-			"effects": ["Battle Res"]
+			"effects": ["Combat Resurrection"]
 		}, 
 		"Strength of the Pack": { 
 			"application": 2, 
@@ -770,7 +791,7 @@
 			"application": 1, 
 			"exlusive": false,
 			"id": 61999, 
-			"effects": ["Battle Res"]
+			"effects": ["Combat Resurrection"]
 		}, 
 		"Battle Shout": { 
 			"application": 1, 
