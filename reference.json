@@ -3,6 +3,8 @@
 	"token": ["Conqueror", "Protector", "Vanquisher"],
 	"role": ["Tank", "Healer", "Melee DPS", "Ranged DPS"],
 	"application": ["Passive", "Cast", "Pet Passive"],
+	"difficulty": ["Zero", "LFR", "Flex", "Normal", "Heroic", "Mythic"],
+	"faction": ["Alliance", "Horde"],
 	"effect": [
 		"Stats", 
 		"Stamina", 
@@ -266,7 +268,7 @@
 		},
 		"Rylak": {
 			"exotic": false,
-			"buffs": ["Saveage Vigor"]
+			"buffs": ["Savage Vigor"]
 		},
 		"Serpent": {
 			"exotic": false,
@@ -835,5 +837,26 @@
 			"id": 160199, 
 			"effects": ["Stamina"]
 		}
+	},
+	"zone_data": {
+		"Highmaul": {
+			"tier": 17
+		},
+		"Blackrock Foundry": {
+			"tier": 17
+		},
+		"Hellfire Citadel": {
+			"tier": 18
+		}
+	},
+	"language": {
+		"en_US": "English (United States)",
+		"pt_BR": "Portuguese (Brazil)",
+		"es_MX": "Spanish (Mexico)"		
+	},
+	"time_zone": {
+		"America/Sao_Paulo": -3,
+		"America/Los_Angeles": -7,
+		"Australia/Melbourne": 10		
 	}
 }

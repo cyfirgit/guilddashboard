@@ -21,7 +21,7 @@ import logging
 from google.appengine.api import urlfetch
 from google.appengine.ext import ndb
 
-import classmodels
+import modelbuilder
 
 run_errors = []
 reference = {}
@@ -30,7 +30,7 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         self.response.write("Yo")
 	
-reference = classmodels.full_initialize(reference)
+reference = modelbuilder.build_all(reference)
 
 
 		
